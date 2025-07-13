@@ -1,0 +1,23 @@
+import enum
+
+class TaskCategoryEnum(str, enum.Enum):
+    MULTIFACTOR_RELEVANCY = "multifactor_relevancy"
+    STATEMENTS_LOGICAL_CONNECTION = "logical_connection"
+    COMMENT_ATTITUDE = "attitude"
+    SIZE_MATCHES = "size_matches"
+    PRODUCT_QUALITY_ASSESSMENT = "product_quality"
+    COMPOSITION_IDENTIFICATION = "composition"
+    WEAR_DETERMINATION = "wear"
+    PRODUCT_CONTENTS_CHECK = "product_contents"
+    MULTIMODAL_MATCHING = "multimodal_matching"
+    CONTEXT_ARGUMENT_CLASSIFICATION = "argument_classification"
+    CHECK_INFORMATION_SOURCE_RELIABILITY = "source_reliability"
+    TEXT_CONTRADICTIONS_CHECK = "contraditctions_check"
+    STATEMENT_INTENT_ANALYSIS = "intent_analysis"
+    MANIPULATION_TECHNIQUES_DETECTION = "manipulation_detection"
+    GENRE_AND_STYLE_DEFINITION = "genre_and_style"
+    PRODUCT_COUNTERFEIT_CHECK = "counterfeit_check"
+    MATERIAL_TYPE_DETERMINATION = "material_type"
+    PACKAGING_INTEGRITY_CHECK = "packaging_integrity"
+    PHOTO_AND_REAL_COLOR_COMPARISON = "color_comparison"
+    ITEM_INSTALLATION_CHECK = "installation_check"
